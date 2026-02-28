@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>播放 Simpa.mp3</title>
+</head>
+<body>
+    <!-- audio 标签是 HTML5 自带的音频播放控件 -->
+    <!-- controls 属性会显示播放、暂停、进度条、音量等基础控制按钮 -->
+    <!-- src 指定音频文件路径，这里是同目录下的 Simpa.mp3 -->
+    <audio controls>
+        <!-- 浏览器不支持 audio 标签时显示的备用文本 -->
+        你的浏览器不支持音频播放，请更换现代浏览器（如Chrome、Edge、Firefox）。
+        <source src="Simpa.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
